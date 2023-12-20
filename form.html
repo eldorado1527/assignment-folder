@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Enrollment Form</title>
+
+
+</head>
+<body>
+  
+  <section>
+  <h3>Application Form</h3>
+  <p>Fill in your details</p>
+<form action="/action_page.php" method="post">
+<div>
+<label for="fname">First Name
+<input type="text" id="fname" placeholder="Enter first name" required>
+</label>
+
+<label for="lname">Last Name
+<input type="text" id="lname" placeholder="Enter last name" required> 
+</label>
+</div>
+
+<br>
+<div>
+<label for="Gender">Gender
+<select name="Gender" id="Gender" required>
+<option value="Select">Select gender</option>
+<option value="Male">Male</option>
+<option value="Female">Female</option>
+<option value="Other">Other</option>
+</select>
+</label> 
+
+<label for="bdate">Date of Birth
+<input type="date" id="bdate" name="bdate" required>
+</label>
+</div>
+<br>
+<div>
+<label for="email">Email Adress
+<input type="email" name="email" placeholder="Enter email address" required>
+</label>
+
+<label for="Education level">Education Level
+<select name="Education level" id="Education level" required>
+<option value="Level of education">Select level of education</option>
+<option value="SSCE">SSCE</option>
+<option value="OND">OND</option>
+<option value="BSc">BSc</option>
+<option value="MSc">MSc</option>
+</select>
+</label>
+</div>
+<br>
+
+<label for="Country"> Country
+<select name="Country" id="Country" required>
+<option value="Select your country">Select your country</option>
+<option value="AF">Afghanistan</option>
+<option value="AL">Albania</option>
+<option value="ALG">Algeria</option>
+<option value="AN">Angola</option>
+<option value="AR">Argentina</option>
+<option value="AU">Australia</option>
+<option value="AZ">Azerbaijan</option>
+<option value="BH">Bahrain</option>
+<option value="BG">Bangladesh</option>
+<option value="BR">Barbados</option>
+<option value="BL">Belarus</option>
+<option value="BE">Belgium</option>
+<option value="BOH">Bosnia and Herzegovina</option>
+<option value="CAM">Cameroon</option>
+<option value="CAR">Central African Republic</option>
+<option value="CIV">Côte d’Ivoire</option>
+<option value="CU">Cuba</option>
+<option value="DE">Denmark</option>
+<option value="DJ">Djibouti</option>
+<option value="EG">Egypt</option>
+<option value="ET">Ethiopia</option>
+<option value="FI">Finland</option>
+<option value="FR">France</option>
+<option value="GAB">Gabon</option>
+<option value="GAM">The Gambia</option>
+<option value="GER">Germany</option>
+<option value="GH">Ghana</option>
+<option value="LI">Libya</option>
+<option value="MAD">Madagascar</option>
+<option value="MAU">Mauritania</option>
+<option value="MAC">Morocco</option>
+<option value="MOZ">Mozambique</option>
+<option value="NED">Netherlands</option>
+<option value="NZL">New Zealand</option>
+<option value="NGR">Nigeria</option>
+<option value="OM">Oman</option>
+<option value="POR">Portugal</option>
+<option value="RWD">Rwanda</option>
+<option value="SAV">Saint Vincent and the Grenadines</option>
+<option value="UGA">Uganda</option>
+<option value="GBR">United Kingdom</option>
+<option value="USA">United States</option>
+<option value="UZB">Uzbekistan</option>
+<option value="VC">Vatican City</option>
+<option value="YEM">Yemen</option>
+<option value="ZAM">Zambia</option>
+<option value="ZIM">Zimbabwe</option>
+</select>
+</label>
+
+<label for="State of residence">State/City of Residence
+<input type="text" id="State of residence" placeholder="Enter your state of residence" required>
+</label> <br><br>
+
+<label for="Employment status">Employment Status
+<select name="Empoloyment" id="Employment status" required>
+<option value="Select">Select employment status</option>
+<option value="Employed">Employed</option>
+<option value="Self employed">Self Employed</option>
+<option value="unemployed">Unemployed</option>
+</select>
+</label>
+
+<label for="Phone">Phone Number
+<input type="Phone number" id="Phone" placeholder="08154387000" required>
+</label><br><br>
+
+<label for="School">Choose school
+<select name="School" id="School" required>
+<option value="Select school">Select school</option>
+<option value="SE">School of Egineering</option>
+<option value="SD">School of Data</option>
+<option value="SP">School of Product</option>
+</select>
+</label>
+
+<label for="Courses">Choose Course of Study
+<select name="Course of Study" id="Courses" required>
+<option value="SC">Select course</option>
+<option value="FE">Front-end</option>
+<option value="BE">back-end</option>
+<option value="CE">Cloud engineering</option>
+</select>
+</label><br><br>
+
+<label for="Source">How did you hear about us?
+<select name="Source" id="Source" required>
+<option value="SC">Select channel</option>
+<option value="AF">True a friend</option>
+<option value="FB">Facebook</option>
+<option value="IG">Instagram</option>
+<option value="TW">Twitter</option>
+</select>
+</label>
+
+<label for="scholarship">Scholarship/Discount Code (optional)
+<input type="text" id="Scholarship" placeholder="Scholarship or student ID or _" required>
+</label>
+</form>
+</section>
+
+<section>
+<p>By clicking continue, I agree to <a href="/Terms of Use/" target="_blank">Terms of Use</a> and acknowledge that I have read the <a href="/Privacy Policy/" target="_blank">Privacy Policy</a></p>
+
+<button type="submit">Proceed</button>
+
+<p>Already have an account? <a href="Sign in">Sign in</a></p>
+
+</section>
+
+</body>
+</html>
